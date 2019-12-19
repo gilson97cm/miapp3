@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item0_"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtTitleCoverPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_grey_400"
+        android:layout_margin="10dp"/>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:gravity="center">
+     <androidx.appcompat.widget.AppCompatImageView
+         android:id="@+id/imgStudent1"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:background="@drawable/circlebackground"
+         android:src="@drawable/student1"
+         android:padding="3dp"
+         android:layout_margin="5dp" />
+     <TextView
+         android:id="@+id/txtNAme1CP"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/name"
+         android:textAlignment="center"
+         android:textSize="20dp" />
+     <androidx.appcompat.widget.AppCompatImageView
+         android:id="@+id/imgStudent2"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:background="@drawable/circlebackground"
+         android:src="@drawable/student2"
+         android:padding="3dp"
+         android:layout_margin="5dp" />
+     <TextView
+         android:id="@+id/txtName2CP"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/name"
+         android:textAlignment="center"
+         android:textSize="20dp" />
+ </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_grey_400"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/txtLevelCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/level"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/txtDateCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+</LinearLayout>

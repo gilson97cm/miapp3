@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item3_"
+    android:gravity="center"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/txtTitleSO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="175dp"
+        android:layout_height="225dp"
+        android:background="@drawable/bg_img"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/sensororientation"
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            />
+    </LinearLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripción:"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/md_grey_200"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/txtDescriptionSO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/description"
+                android:padding="5dp"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/btnViewExample"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_red"
+        android:text="@string/view_example"
+        android:textColor="@color/md_white_1000"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:padding="5dp"/>
+
+</LinearLayout>

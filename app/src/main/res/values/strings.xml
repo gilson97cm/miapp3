@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MenuSensores_gl</string>
+    <string name="view_example">Ver Ejemplo</string>
+    <string name="backView">volver</string>
+    <string name="title">Titulo</string>
+    <string name="description">Descripción</string>
+    <string name="name">Nombres y Apelidos</string>
+    <string name="level">Ciclo</string>
+    <string name="date">01/01/2001</string>
+
+
+
+</resources>
