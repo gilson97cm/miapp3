@@ -24,7 +24,7 @@
         android:padding="3dp"
         android:gravity="center">
         <androidx.appcompat.widget.AppCompatImageView
-
+            android:src="@drawable/huella"
             android:layout_width="160dp"
             android:layout_height="210dp"
             />

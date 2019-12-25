@@ -19,5 +19,13 @@
     <string name="z_label">Gráfica de Z</string>
 
 
+    <string name="play_name">Venom</string>
+    <string name="play_description">Venom es considerado uno de los villanos más peligrosos y despiadados del universo Marvel, además de ser uno de los principales enemigos de Spider-Man.</string>
+    <string name="play_price">$1.30</string>
+    <string name="purchase">Comprar</string>
+    <string name="purchase_done">Compra realizada con exito.</string>
+
+
+
 
 </resources>

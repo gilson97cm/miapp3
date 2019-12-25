@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         menuItems.add((MenuItem) new MenuItem("Sensor de Proximidad", R.drawable.item1));
         menuItems.add((MenuItem) new MenuItem("Sensor Acelerómetro", R.drawable.item2));
         menuItems.add((MenuItem) new MenuItem("Sensor de Orientación", R.drawable.item3));
-        menuItems.add((MenuItem) new MenuItem("Sensor 2", R.drawable.item4));
+        menuItems.add((MenuItem) new MenuItem("Sensor de Huella", R.drawable.item4));
 
         navigationDrawer.setMenuItemList(menuItems);
 
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 4: {
-                        fragmentClass = SensorDosMain.class;
+                        fragmentClass = SensorFingerPrintMain.class;
                         Toast.makeText(getApplicationContext(), "sensor 2", Toast.LENGTH_SHORT).show();
                         break;
                     }
